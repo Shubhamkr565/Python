@@ -1,0 +1,12 @@
+# eno = int(input("Enter Employee no.: "))
+# ename = input("Enter Employee name: ")
+# esal = int(input("Enter Employee Salary: "))
+# eaddress = input("Enter Employee Address: ")
+married = bool(input("Employee Married ? [True|Fales]:"))
+
+print("Please Confirm Information")
+# print("Employee No. ", eno)
+# print("Employee Name: ", ename)
+# print("Employee Salary: ", esal)
+# print("Employee Address: ", eaddress)
+print("Employee Married?  ", married)
