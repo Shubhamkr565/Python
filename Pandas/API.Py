@@ -14,4 +14,4 @@ data = pd.read_json("Pandas/JsonData.json")
 
 # print(data.groupby("department")["salary"].mean())
 
-print(data.loc[data["salary"].idxmax()])
+print(data.loc[data["salary"].idxmax()])  # loc is used when row accesses iloc also
