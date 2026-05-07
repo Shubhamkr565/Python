@@ -1,0 +1,61 @@
+[
+    {"Product":"Laptop","Category":"Electronics","Sales":75000,"Quantity":5},
+    {"Product":"Smartphone","Category":"Electronics","Sales":50000,"Quantity":10},
+    {"Product":"Headphones","Category":"Electronics","Sales":12000,"Quantity":15},
+    {"Product":"Keyboard","Category":"Electronics","Sales":8000,"Quantity":12},
+    {"Product":"Mouse","Category":"Electronics","Sales":6000,"Quantity":20},
+
+    {"Product":"Chair","Category":"Furniture","Sales":15000,"Quantity":6},
+    {"Product":"Table","Category":"Furniture","Sales":22000,"Quantity":4},
+    {"Product":"Sofa","Category":"Furniture","Sales":45000,"Quantity":2},
+    {"Product":"Bed","Category":"Furniture","Sales":55000,"Quantity":3},
+    {"Product":"Cupboard","Category":"Furniture","Sales":30000,"Quantity":2},
+
+    {"Product":"T-Shirt","Category":"Clothing","Sales":7000,"Quantity":25},
+    {"Product":"Jeans","Category":"Clothing","Sales":12000,"Quantity":18},
+    {"Product":"Jacket","Category":"Clothing","Sales":18000,"Quantity":8},
+    {"Product":"Shoes","Category":"Clothing","Sales":25000,"Quantity":10},
+    {"Product":"Sweater","Category":"Clothing","Sales":10000,"Quantity":14},
+
+    {"Product":"Notebook","Category":"Stationery","Sales":4000,"Quantity":40},
+    {"Product":"Pen Pack","Category":"Stationery","Sales":2500,"Quantity":50},
+    {"Product":"Marker","Category":"Stationery","Sales":3500,"Quantity":30},
+    {"Product":"File Folder","Category":"Stationery","Sales":5000,"Quantity":20},
+    {"Product":"Stapler","Category":"Stationery","Sales":4500,"Quantity":10},
+
+    {"Product":"Rice Bag","Category":"Grocery","Sales":20000,"Quantity":25},
+    {"Product":"Wheat Flour","Category":"Grocery","Sales":18000,"Quantity":22},
+    {"Product":"Cooking Oil","Category":"Grocery","Sales":16000,"Quantity":18},
+    {"Product":"Sugar","Category":"Grocery","Sales":9000,"Quantity":20},
+    {"Product":"Tea Pack","Category":"Grocery","Sales":7000,"Quantity":15},
+
+    {"Product":"Football","Category":"Sports","Sales":8000,"Quantity":10},
+    {"Product":"Cricket Bat","Category":"Sports","Sales":15000,"Quantity":6},
+    {"Product":"Tennis Racket","Category":"Sports","Sales":12000,"Quantity":5},
+    {"Product":"Badminton Kit","Category":"Sports","Sales":10000,"Quantity":7},
+    {"Product":"Gym Gloves","Category":"Sports","Sales":4000,"Quantity":12},
+
+    {"Product":"Shampoo","Category":"Beauty","Sales":6000,"Quantity":14},
+    {"Product":"Face Wash","Category":"Beauty","Sales":5000,"Quantity":16},
+    {"Product":"Perfume","Category":"Beauty","Sales":20000,"Quantity":5},
+    {"Product":"Lipstick","Category":"Beauty","Sales":7000,"Quantity":10},
+    {"Product":"Moisturizer","Category":"Beauty","Sales":8500,"Quantity":9},
+
+    {"Product":"Toy Car","Category":"Toys","Sales":4500,"Quantity":20},
+    {"Product":"Doll","Category":"Toys","Sales":5500,"Quantity":15},
+    {"Product":"Puzzle Game","Category":"Toys","Sales":3000,"Quantity":18},
+    {"Product":"Building Blocks","Category":"Toys","Sales":9000,"Quantity":10},
+    {"Product":"Remote Helicopter","Category":"Toys","Sales":15000,"Quantity":4},
+
+    {"Product":"Water Bottle","Category":"Kitchen","Sales":3500,"Quantity":25},
+    {"Product":"Pressure Cooker","Category":"Kitchen","Sales":12000,"Quantity":5},
+    {"Product":"Mixer Grinder","Category":"Kitchen","Sales":18000,"Quantity":4},
+    {"Product":"Dinner Set","Category":"Kitchen","Sales":14000,"Quantity":6},
+    {"Product":"Gas Stove","Category":"Kitchen","Sales":22000,"Quantity":3},
+
+    {"Product":"Watch","Category":"Accessories","Sales":25000,"Quantity":7},
+    {"Product":"Wallet","Category":"Accessories","Sales":5000,"Quantity":15},
+    {"Product":"Backpack","Category":"Accessories","Sales":11000,"Quantity":9},
+    {"Product":"Sunglasses","Category":"Accessories","Sales":9000,"Quantity":8},
+    {"Product":"Belt","Category":"Accessories","Sales":4000,"Quantity":12}
+]

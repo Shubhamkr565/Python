@@ -1,0 +1,116 @@
+# Most Used [pandas](https://pandas.pydata.org/?utm_source=chatgpt.com) Functions Cheat Sheet
+
+| Topic               | Function            | Purpose                      |
+| ------------------- | ------------------- | ---------------------------- |
+| View first rows     | `head()`            | Show first rows              |
+| View last rows      | `tail()`            | Show last rows               |
+| Shape               | `shape`             | Rows and columns count       |
+| Column names        | `columns`           | Show all columns             |
+| Data types          | `dtypes`            | Show datatype of columns     |
+| Basic info          | `info()`            | Full DataFrame info          |
+| Statistics          | `describe()`        | Mean, min, max, etc.         |
+| Select columns      | `[[]]`              | Select specific columns      |
+| Select row by index | `iloc[]`            | Select rows using index      |
+| Select by label     | `loc[]`             | Select rows/columns by label |
+| Filtering           | `data[condition]`   | Filter rows                  |
+| Sort values         | `sort_values()`     | Sort data                    |
+| Unique values       | `unique()`          | Show unique values           |
+| Count unique        | `nunique()`         | Count unique values          |
+| Value counts        | `value_counts()`    | Count repeated values        |
+| Missing values      | `isnull()`          | Detect missing values        |
+| Fill missing values | `fillna()`          | Replace NaN                  |
+| Remove missing rows | `dropna()`          | Delete NaN rows              |
+| Remove columns      | `drop()`            | Delete rows/columns          |
+| Rename columns      | `rename()`          | Change column names          |
+| Add new column      | `data["new"] =`     | Create column                |
+| Apply function      | `apply()`           | Apply custom function        |
+| Average             | `mean()`            | Calculate average            |
+| Maximum             | `max()`             | Largest value                |
+| Minimum             | `min()`             | Smallest value               |
+| Sum                 | `sum()`             | Total value                  |
+| Count               | `count()`           | Non-null count               |
+| Grouping            | `groupby()`         | Group data                   |
+| Merge DataFrames    | `merge()`           | Combine tables               |
+| Join DataFrames     | `join()`            | Join tables                  |
+| Concatenate         | `concat()`          | Combine DataFrames           |
+| Remove duplicates   | `drop_duplicates()` | Delete duplicate rows        |
+| Check duplicates    | `duplicated()`      | Find duplicates              |
+| Convert datatype    | `astype()`          | Change datatype              |
+| Read CSV            | `read_csv()`        | Load CSV                     |
+| Save CSV            | `to_csv()`          | Save CSV                     |
+| Read JSON           | `read_json()`       | Load JSON                    |
+| Save JSON           | `to_json()`         | Save JSON                    |
+| Read Excel          | `read_excel()`      | Load Excel                   |
+| Save Excel          | `to_excel()`        | Save Excel                   |
+| Random rows         | `sample()`          | Get random data              |
+| Index reset         | `reset_index()`     | Reset row index              |
+| Set index           | `set_index()`       | Make column index            |
+| Correlation         | `corr()`            | Relationship between columns |
+| Replace values      | `replace()`         | Replace values               |
+| Query data          | `query()`           | Filter using query string    |
+
+---
+
+# Most Important Beginner Functions
+
+```python id="x2m8vk"
+data.head()
+data.tail()
+data.shape
+data.columns
+data.info()
+data.describe()
+data.isnull().sum()
+data.fillna()
+data.dropna()
+data.drop()
+data["Salary"].mean()
+data.sort_values("Salary")
+data.groupby("City")
+data.to_csv()
+```
+
+---
+
+# Very Common Interview Functions
+
+| Function           | Why Important      |
+| ------------------ | ------------------ |
+| `groupby()`        | Data analysis      |
+| `merge()`          | SQL-like joins     |
+| `loc[]` / `iloc[]` | Selection          |
+| `fillna()`         | Data cleaning      |
+| `dropna()`         | Cleaning           |
+| `value_counts()`   | Frequency analysis |
+| `sort_values()`    | Sorting            |
+| `describe()`       | Statistics         |
+| `apply()`          | Custom logic       |
+| `pivot_table()`    | Advanced analysis  |
+
+---
+
+# Example Quick Practice
+
+```python id="v7n3qw"
+print(data.head())
+
+print(data.shape)
+
+print(data["City"].value_counts())
+
+print(data["Salary"].mean())
+
+print(data.isnull().sum())
+
+print(data.sort_values("Salary", ascending=False))
+```
+
+
+
+
+
+
+
+
+
+
